@@ -52,8 +52,8 @@ npm install
 ```
 
 ### Configure MongoDB
-Make sure MongoDB is running locally, or use a MongoDB Atlas connection string.
-Update the mongoose.connect URL inside server.js:
+-Make sure MongoDB is running locally, or use a MongoDB Atlas connection string.
+-Update the mongoose.connect URL inside server.js:
 
 ```bash
 mongoose.connect("mongodb://localhost:27017/simpleapp", {
@@ -97,22 +97,22 @@ Frontend runs at: http://localhost:3000
 Base URL: http://localhost:5000/api
 
 ### Method	Endpoint	Description
-POST	/register	Register a new user
-POST	/login	Login with email & password
+-POST	/register	Register a new user
+-POST	/login	Login with email & password
 
 ### 🛠 Tech Stack
 ### Frontend:
-  React.js
-  React Hooks
-  JSX Components
+  -React.js
+  -React Hooks
+  -JSX Components
 
 ### Backend:
-  Node.js
-  Express.js
-  MongoDB + Mongoose
-  bcryptjs (password hashing)
-  jsonwebtoken (JWT authentication)
-  cors (cross-origin requests)
+  -Node.js
+  -Express.js
+  -MongoDB + Mongoose
+  -bcryptjs (password hashing)
+  -jsonwebtoken (JWT authentication)
+  -cors (cross-origin requests)
 
 ### 🚀 Running the Full Project
 In two separate terminals:
@@ -127,10 +127,10 @@ npm start
 
 
 ### ⚠️ Notes
-Ensure MongoDB service is running locally or that your Atlas connection is correct.
-Change "SECRET_KEY" in server.js to a more secure value before deploying.
-Default MongoDB database name is simpleapp. You can change it in the connection URL.
-If you see Module not found for react-icons/fa, install it:
+-Ensure MongoDB service is running locally or that your Atlas connection is correct.
+-Change "SECRET_KEY" in server.js to a more secure value before deploying.
+-Default MongoDB database name is simpleapp. You can change it in the connection URL.
+-If you see Module not found for react-icons/fa, install it:
 
 ```bash
 npm install react-icons
