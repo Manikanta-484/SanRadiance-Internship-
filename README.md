@@ -15,7 +15,7 @@ This project includes:
 
 ## 📂 Project Structure
 
-.
+```bash
 ├── backend/ # Node.js + Express + MongoDB backend
 │ ├── server.js # Main backend server file
 │ └── package.json
@@ -33,7 +33,7 @@ This project includes:
 │ │ │ └── ValueSection.jsx
 │ ├── package.json
 
-
+```
 ---
 
 ## ⚙️ Installation & Setup
