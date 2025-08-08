@@ -96,7 +96,6 @@ Frontend runs at: http://localhost:3000
 ### 🔑 API Endpoints
 Base URL: http://localhost:5000/api
 
-## 🔑 API Endpoints
 
 | Method | Endpoint   | Description                |
 |--------|-----------|----------------------------|
@@ -139,7 +138,6 @@ npm start
 - Change `"SECRET_KEY"` in `server.js` to a more secure value before deploying.  
 - Default MongoDB database name is **simpleapp** — you can change it in the connection URL.  
 - If you see **Module not found** for `react-icons/fa`, install it:
-  ```bash
   
 
 
