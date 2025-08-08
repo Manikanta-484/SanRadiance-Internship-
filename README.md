@@ -39,7 +39,7 @@ This project includes:
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/Manikanta-484/SanRadiance.git
+git clone [https://github.com/Manikanta-484/SanRadiance.git](https://github.com/Manikanta-484/SanRadiance-Internship-.git)
 
 ### 2️⃣ Backend Setup
 Navigate to the backend folder:
