@@ -126,11 +126,15 @@ cd frontend
 npm start
 
 
-### ⚠️ Notes
--Ensure MongoDB service is running locally or that your Atlas connection is correct.
--Change "SECRET_KEY" in server.js to a more secure value before deploying.
--Default MongoDB database name is simpleapp. You can change it in the connection URL.
--If you see Module not found for react-icons/fa, install it:
+## ⚠️ Notes
+
+- Ensure **MongoDB** service is running locally or your Atlas connection string is correct.  
+- Change `"SECRET_KEY"` in `server.js` to a more secure value before deploying.  
+- Default MongoDB database name is **simpleapp** — you can change it in the connection URL.  
+- If you see **Module not found** for `react-icons/fa`, install it:
+  ```bash
+  
+
 
 ```bash
 npm install react-icons
