@@ -52,8 +52,8 @@ npm install
 ```
 
 ### Configure MongoDB
--Make sure MongoDB is running locally, or use a MongoDB Atlas connection string.
--Update the mongoose.connect URL inside server.js:
+- Make sure MongoDB is running locally, or use a MongoDB Atlas connection string.
+- Update the mongoose.connect URL inside server.js:
 
 ```bash
 mongoose.connect("mongodb://localhost:27017/simpleapp", {
@@ -96,23 +96,30 @@ Frontend runs at: http://localhost:3000
 ### 🔑 API Endpoints
 Base URL: http://localhost:5000/api
 
-### Method	Endpoint	Description
--POST	/register	Register a new user
--POST	/login	Login with email & password
+## 🔑 API Endpoints
 
-### 🛠 Tech Stack
-### Frontend:
-  -React.js
-  -React Hooks
-  -JSX Components
+| Method | Endpoint   | Description                |
+|--------|-----------|----------------------------|
+| POST   | /register | Register a new user         |
+| POST   | /login    | Login with email & password |
 
-### Backend:
-  -Node.js
-  -Express.js
-  -MongoDB + Mongoose
-  -bcryptjs (password hashing)
-  -jsonwebtoken (JWT authentication)
-  -cors (cross-origin requests)
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React.js  
+- React Hooks  
+- JSX Components  
+
+**Backend:**
+- Node.js  
+- Express.js  
+- MongoDB + Mongoose  
+- bcryptjs (password hashing)  
+- jsonwebtoken (JWT authentication)  
+- cors (cross-origin requests)  
+
 
 ### 🚀 Running the Full Project
 In two separate terminals:
